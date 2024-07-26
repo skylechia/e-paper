@@ -18,7 +18,7 @@ try:
     epd = epd2in13_V4.EPD()
     # logging.info("init and Clear")
     epd.init()
-    epd.Clear(0xFF)
+    # epd.Clear(0xFF)
 
     # Drawing on the image
     font15 = ImageFont.truetype(os.path.join(picdir, 'Font.ttc'), 15)
