@@ -30,7 +30,7 @@ try:
         draw = ImageDraw.Draw(image)
         draw.rectangle([(0,0),(50,50)],outline = 0)
         draw.rectangle([(55,0),(100,50)],fill = 0)
-        # draw.line([(0,0),(50,50)], fill = 0,width = 1)
+        draw.line([(0,0),(50,50)], fill = 0,width = 1)
         # draw.line([(0,50),(50,0)], fill = 0,width = 1)
         # draw.chord((10, 60, 50, 100), 0, 360, fill = 0)
         # draw.ellipse((55, 60, 95, 100), outline = 0)
